@@ -8,9 +8,9 @@ class TweetAdmin(admin.ModelAdmin):
     list_display = ("payload", "get_user_name")
 
     def get_user_name(self, obj):
-        return obj.user.name
+        return obj.author.name
 
-    get_user_name.short_description = "User"
+    get_user_name.short_description = "Author"
 
 
 @admin.register(Like)
