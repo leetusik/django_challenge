@@ -42,6 +42,7 @@ SYSTEM_APPS = [
 CUSTOM_APPS = [
     "users",
     "common",
+    "tweets",
 ]
 
 INSTALLED_APPS = SYSTEM_APPS + CUSTOM_APPS

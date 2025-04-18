@@ -5,7 +5,7 @@ from .models import Like, Tweet
 
 @admin.register(Tweet)
 class TweetAdmin(admin.ModelAdmin):
-    list_display = ("content", "user")
+    list_display = ("payload", "user")
 
 
 @admin.register(Like)
