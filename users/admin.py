@@ -18,9 +18,9 @@ class UserAdmin(UserAdmin):
             "Profile",
             {
                 "fields": (
-                    "username",
-                    "password",
                     "name",
+                    # "username",
+                    "password",
                 ),
                 "classes": ("wide",),
             },
